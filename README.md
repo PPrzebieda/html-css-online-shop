@@ -1,12 +1,12 @@
-#html-css-online-shop
+# HTML & CSS online shop
 
 Online store outline using HTML and CSS
 
-#Demo:
+# Demo:
 
 https://pprzebieda.github.io/html-css-online-shop/
 
-#Descripion:
+# Descripion:
 
 Online store outline using HTML and CSS with no JavaScript. Contain dropdown menu, tables, forms and other HTML elements.
 
