@@ -1,0 +1,108 @@
+/* Promo IMG */
+.promo {
+  margin-top: var(--margin-top-1em);
+  height: 300px;
+  position: relative;
+}
+
+.promo a {
+  text-decoration: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+.promo img {
+  height: 100%;
+  width: 100%;
+}
+
+.promo img:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.sale1 {
+  position: absolute;
+  font-size: 30px;
+  background-color: var(--border-color);
+  left: 3%;
+  color: var(--main-font-color);
+  opacity: 80%;
+}
+
+.poz1 {
+  top: 55%;
+}
+
+.poz2 {
+  top: 70%;
+}
+
+/* Main Page Content */
+
+.main {
+  margin-top: var(--margin-top-1em);
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.main .images {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.images a {
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  width: 32.8%;
+}
+
+.images img {
+  width: 100%;
+}
+
+.images img:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.label {
+  position: absolute;
+  font-size: 2em;
+  background-color: var(--border-color);
+  top: 50%;
+  opacity: 80%;
+  border-radius: 5px;
+  padding: 10% 7%;
+  color: var(--main-font-color);
+}
+
+.clear {
+  clear: both;
+}
+
+article {
+  text-align: justify;
+}
+
+.article1 {
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  width: 30%;
+}
+
+.article2 {
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  width: 30%;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,25 @@
+.pricing-content {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  width: 60%;
+  font-size: 1em;
+}
+td,
+tr {
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  background-color: var(--border-color);
+}
+
+.hide {
+  border: 0px;
+  background-color: var(--bg-color);
+}

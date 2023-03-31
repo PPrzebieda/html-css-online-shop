@@ -1,0 +1,40 @@
+.formcontent {
+  margin-top: var(--margin-top-1em);
+  justify-content: center;
+}
+
+form {
+  width: 50%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.formbox {
+  margin: 5px 0;
+  height: 30px;
+}
+
+.textarea {
+  height: 200px;
+  margin: 5px 0;
+}
+
+.send {
+  display: flex;
+  justify-content: center;
+}
+.sendbox {
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.required::after {
+  content: " *";
+  color: red;
+}
