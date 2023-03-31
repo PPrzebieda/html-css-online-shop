@@ -1,4 +1,4 @@
-# HTML & CSS online shop
+# HTML & CSS Online Shop
 
 Online store outline using HTML and CSS
 
